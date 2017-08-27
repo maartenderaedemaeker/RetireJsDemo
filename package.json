@@ -1,0 +1,13 @@
+{
+  "name": "retirejsdemo",
+  "version": "1.0.0",
+  "description": "Demonstration of retirejs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server/index.js"
+  },
+  "author": "Maarten De Raedemaeker",
+  "dependencies": {
+    "express": "^4.8.0"
+  }
+}
