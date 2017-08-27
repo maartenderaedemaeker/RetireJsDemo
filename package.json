@@ -4,10 +4,14 @@
   "description": "Demonstration of retirejs",
   "main": "index.js",
   "scripts": {
-    "serve": "node server/index.js"
+    "serve": "node server/index.js",
+	"retire": "node node_modules/retire/bin/retire --outputpath retire-report.txt --exitwith 0"
   },
   "author": "Maarten De Raedemaeker",
   "dependencies": {
     "express": "^4.8.0"
+  },
+  "devDependencies": {
+    "retire": "^1.4.0"
   }
 }
